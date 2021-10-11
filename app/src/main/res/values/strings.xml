@@ -26,6 +26,7 @@
     <!-- Buttons -->
     <string name="button_connect">Connect</string>
     <string name="button_send">Send</string>
+    <string name="viz_options_open_content">Show viz options</string>
 
     <!-- SSH Connection -->
     <string name="ssh_connection">SSH Connection Data</string>
@@ -65,5 +66,17 @@
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>
     <string name="pending">Pending</string>
+
+    <!-- SSH Autocompletion -->
+    <string-array name="ssh_autocmpletion">
+        <item>rostopic list </item>
+        <item>rostopic echo </item>
+        <item>rostopic info </item>
+        <item>rostopic hz </item>
+        <item>rosnode info </item>
+        <item>rosnode list </item>
+        <item>roslaunch </item>
+        <item>roscore</item>
+    </string-array>
 
 </resources>
